@@ -11,6 +11,23 @@ package ru.avalon.java.dev.j10.labs.models;
  * </ol>
  */
 public class Person {
+    
+    private String passport;
+    private String address;
+
+    public Person(String passport, String address) {
+        this.passport = passport;
+        this.address = address;
+    }
+
+    public String getPassport() {
+        return passport;
+    }
+
+    public void setPassport(String passport) {
+        this.passport = passport;
+    }
+    
 
     /**
      * Возврвщает полное имя человека.
