@@ -13,3 +13,34 @@
  * 4. Подумайте над тем, какие методы должны быть объявлены
  *    в классе.
  */
+
+package ru.avalon.java.dev.j10.labs.commons;
+
+public class Address {
+private String ul;
+private String numberHome;
+
+    public Address(String ul, String numberHome) {
+        this.ul = ul;
+        this.numberHome = numberHome;
+    }
+
+    public String getUl() {
+        return ul;
+    }
+
+    public void setUl(String ul) {
+        this.ul = ul;
+    }
+
+    public String getNumberHome() {
+        return numberHome;
+    }
+
+    public void setNumberHome(String numberHome) {
+        this.numberHome = numberHome;
+    }
+
+
+
+}
